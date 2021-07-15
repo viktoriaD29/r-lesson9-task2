@@ -8,7 +8,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <UserForm onSubmit={this.createUser()}/>
+      <UserForm onSubmit={() => this.createUser}/>
     )
   }
 }
